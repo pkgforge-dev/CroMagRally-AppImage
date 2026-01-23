@@ -14,7 +14,7 @@ export DEPLOY_OPENGL=1
 export DEPLOY_PIPEWIRE=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/CroMagRally
+quick-sharun /usr/lib/cro-mag-rally/CroMagRally
 
 # Additional changes can be done in between here
 
