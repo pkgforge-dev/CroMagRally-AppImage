@@ -11,6 +11,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/512x512/apps/cro-mag-rally.png
 export DESKTOP=/usr/share/applications/cro-mag-rally.desktop
 export DEPLOY_OPENGL=1
+export DEPLOY_SDL=1
 
 # Deploy dependencies
 quick-sharun /usr/lib/cro-mag-rally/CroMagRally
