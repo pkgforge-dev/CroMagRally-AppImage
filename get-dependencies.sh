@@ -6,7 +6,12 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm libdecor
+pacman -Syu --noconfirm \
+    glu       \
+    libdecor  \
+    libgcc    \
+    libstdc++ \
+    sdl2
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
